@@ -1,0 +1,15 @@
+{
+    "name": "TinkLabs/hotel-integration-common",
+    "description": "Hotel Integration JMS",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "jms/serializer" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "IntegrationCommon\\": "./src"
+        }
+    }
+}
