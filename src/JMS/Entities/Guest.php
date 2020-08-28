@@ -80,7 +80,7 @@ class Guest extends Entity
      * @param $language
      * @param $arrival_at
      * @param $departure_at
-     * @param array $data
+     * @param $data
      */
     public function __construct(
         $room_number,
@@ -94,7 +94,7 @@ class Guest extends Entity
         $language = null,
         $arrival_at = null,
         $departure_at = null,
-        array $data = []
+        $data = []
     )
     {
         $this->room_number = $room_number;
